@@ -1,0 +1,68 @@
+
+.lo{
+	text-align: center;
+}
+h1 {
+  text-align: right;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  color: #876;
+
+}
+
+
+#deux, #trois, #quatre{
+	border-style: solid,20px;
+    border-width: 2px 2px 4px 2px;
+    margin: 0px 0px 0px 3px;
+    padding: 10px 15px 10px 15px;
+    background-color: #731;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #deux, #trois, #quatre{
+    float: left;
+    border: 2px solid green;
+    padding: 10px 12px 10px 12px;
+    margin: 15px 10px 15px 20px;
+  }
+  #deux {
+    width: 27%;
+  }
+  #trois {
+    width: 27%;
+  }
+  #quatre {
+    width: 27%;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #deux, #trois, #quatre{
+    float: left;
+    border: 2px solid blue;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 10px 15px 0px;
+  }
+  #deux {
+    width: 45%;
+  }
+  #trois {
+    width: 45%;
+  }
+ #quatre {
+    width: 95%;
+}
+}
+@media (max-width: 767px) {
+  #deux, #trois, #quatre{
+    float: left;
+    border: 2px solid yellow;
+    padding: 10px 12px 10px 12px;
+    margin: 10px 15px 10px 0px;
+}
+
+}
